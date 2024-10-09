@@ -6,11 +6,11 @@ Real World HTTP 第３版を読みながら手を動かしたもの
 
 ### 2.1.1 テストエコーサーバーの実行
 
-practice-01に記載。
-practice-01を実行する場合、下記のようにする。
+practice-2-1-1に記載。
+実行する場合、下記のようにする。
 
 ```
-go run practice-01/main01.go
+go run practice-2-1-1/main.go
 ```
 
 
@@ -21,14 +21,14 @@ practice-02に記載。
 初回のみ、下記でgo.modファイルを作る
 
 ```
-go mod init main02
+go mod init practice-4-4
 ```
 
 #### スクリプトのように実行する場合
 下記を実行。
 
 ```
-go run main02.go
+go run main.go
 ```
 
 #### buildする場合
@@ -42,6 +42,6 @@ go build
 実行する
 
 ```
-./main02
+./practice-4-4
 ```
 
